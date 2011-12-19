@@ -1,0 +1,23 @@
+
+See this post to the Hackerspaces list for background:
+
+http://lists.hackerspaces.org/pipermail/discuss/2011-November/004887.html
+
+SpaceAPI docs are here: http://hackerspaces.nl/spaceapi/
+
+My thought was that since we are only "open" during specific hours (say, Tues & Thurs 7pm - 10pm) we could just build a simple PHP script that outputs the open/closed status based on the day/time. At least for the first revision.
+
+Here's what I have so far:
+
+    http://apps.2xlnetworks.net/milwaukeemakerspace/
+
+That should only show us as being open (to the public) if requested on Tues or Thurs from 7pm to 9pm. Any other time would show us being closed and available to 'members only'
+
+
+This code is released under the GPL. 
+
+Pete Prodoehl
+pete@rasterweb.net
+http://rasterweb.net/raster/
+Twitter: @raster
+
