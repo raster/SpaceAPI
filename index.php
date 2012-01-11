@@ -13,7 +13,7 @@ $hour 	= date("G", $time);
 // check for Tues or Thurs
 if (($day == 2) or ($day == 4)) {
 	// check for 7pm to 9pm)
-	if (($hour > 19) and ($hour < 21)) {
+	if (($hour > 18) and ($hour < 21)) {
 		$open = 'true';
 		$status = 'open for public';
 		
