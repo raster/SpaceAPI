@@ -45,7 +45,9 @@ if (($day == 2) or ($day == 4)) {
   "feeds":[
     {"name":"blog","type":"application/rss+xml","url":"http://milwaukeemakerspace.org/feed/"},
     {"name":"wiki","type":"application/rss+xml","url":"http://wiki.milwaukeemakerspace.org/feed.php"},
-    {"name":"calendar","type":"text/calendar","url":"http://www.google.com/calendar/ical/milwaukeemakerspace.org_kckatpfskv1lerggn73utbadgc%40group.calendar.google.com/public/basic.ics"}  
+    {"name":"photos","type":"text/xml","url":"http://api.flickr.com/services/feeds/groups_pool.gne?id=1554189@N20&lang=en-us&format=rss_200"},
+    {"name":"calendar","type":"text/calendar","url":"http://www.google.com/calendar/ical/milwaukeemakerspace.org_kckatpfskv1lerggn73utbadgc%40group.calendar.google.com/public/basic.ics"}
   ],
   "lastchange":<?php echo $time ?>
+  
 }
