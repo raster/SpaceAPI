@@ -25,40 +25,27 @@ if (($day == 2) or ($day == 4)) {
 }
 ?>
 {
-  "api":"0.11",
+  "api":"0.12",
   "space":"Milwaukee Makerspace",
   "url":"http:\/\/milwaukeemakerspace.org",
+  "address":"3073 S Chase Ave, Bldg 34, Milwaukee, WI 53207, USA",
+  "lat":"42.988773",
+  "lon":"-87.912791",
+  "logo":"http:\/\/apps.2xlnetworks.net\/milwaukeemakerspace\/images\/milwaukeemakerspace.png",
   "icon":{
     "open":"http:\/\/apps.2xlnetworks.net\/milwaukeemakerspace\/images\/open.png",
     "closed":"http:\/\/apps.2xlnetworks.net\/milwaukeemakerspace\/images\/closed.png"
   },
-  "address":"3073 S Chase Ave, Bldg 34, Milwaukee, WI 53207, USA",
   "contact":{
     "twitter":"@mkemakerspace",
     "ml":"milwaukeemakerspace@googlegroups.com"
   },
-  "lat":"42.988773",
-  "lon":"-87.912791",
-  "logo":"http:\/\/apps.2xlnetworks.net\/milwaukeemakerspace\/images\/milwaukeemakerspace.png",
   "open":<?php echo $open ?>,
   "status":"<?php echo $status ?>",
+  "feeds":[
+    {"name":"blog","type":"application/rss+xml","url":"http://milwaukeemakerspace.org/feed/"},
+    {"name":"wiki","type":"application/rss+xml","url":"http://wiki.milwaukeemakerspace.org/feed.php"},
+    {"name":"calendar","type":"text/calendar","url":"http://www.google.com/calendar/ical/milwaukeemakerspace.org_kckatpfskv1lerggn73utbadgc%40group.calendar.google.com/public/basic.ics"}  
+  ],
   "lastchange":<?php echo $time ?>
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
