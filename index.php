@@ -29,8 +29,8 @@ if (($day == 2) or ($day == 4)) {
   "space":"Milwaukee Makerspace",
   "url":"http:\/\/milwaukeemakerspace.org",
   "address":"3073 S Chase Ave, Bldg 34, Milwaukee, WI 53207, USA",
-  "lat":"42.988773",
-  "lon":"-87.912791",
+  "lat":42.988773,
+  "lon":-87.912791,
   "logo":"http:\/\/apps.2xlnetworks.net\/milwaukeemakerspace\/images\/milwaukeemakerspace.png",
   "icon":{
     "open":"http:\/\/apps.2xlnetworks.net\/milwaukeemakerspace\/images\/open.png",
